@@ -1,0 +1,36 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff4fa3, #4f8cff);
+}
+
+.box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.box h1 {
+  margin-bottom: 20px;
+}
+
+.box input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #ff4fa3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
